@@ -11,10 +11,18 @@
 
 body {
     background: var(--Very-dark-blue);
+<<<<<<< HEAD
     display: flex;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+=======
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:0;
+>>>>>>> f47b9ea93e80adfbd84e94188ea0cd82fec17d4f
 }
 
 main {
@@ -22,6 +30,10 @@ main {
     width: 100%;
     max-width: 1100px;
     height: auto;
+<<<<<<< HEAD
+=======
+    /*margin: 230px auto;*/
+>>>>>>> f47b9ea93e80adfbd84e94188ea0cd82fec17d4f
     display: flex;
     justify-content: flex-end;
     border-radius: 7px;
