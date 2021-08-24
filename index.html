@@ -18,8 +18,15 @@
 <body>
         <main>
             <div class="section-img">
-                <img id="img-desktop" src="assets/img/image-header-desktop.jpg" alt="Working people">
-                <img id="img-mobile" src="assets/img/image-header-mobile.jpg" alt="Working people">
+                <img class="image" srcset="assets/img/image-header-desktop.jpg 540w, 
+                             assets/img/image-header-mobile.jpg 654w"
+                
+                sizes="(max-width: 400px) 540px, 654px"
+                
+                src="/assets/img/image-header-desktop.jpg"
+                
+                alt="">
+            
             </div>
             <section class="section-main">
                 <header class="header">
