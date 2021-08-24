@@ -44,6 +44,7 @@ main {
 
 .image {
     display: block;
+    opacity: 40%;
 }
 @media (max-width: 650px) { 
 .image {
@@ -51,7 +52,8 @@ main {
   }
 }
 .section-img {
-    background: rgb(122, 34, 156);
+    background: hsla(288, 81%, 31%, 0.671);
+    /* background: hsl(285, 50%, 29%); */
     /* height: 446px; */
     order: 2;
 }
