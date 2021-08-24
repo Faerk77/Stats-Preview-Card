@@ -53,8 +53,6 @@ main {
 }
 .section-img {
     background: hsla(288, 81%, 31%, 0.671);
-    /* background: hsl(285, 50%, 29%); */
-    /* height: 446px; */
     order: 2;
 }
 
